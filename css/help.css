@@ -1,0 +1,41 @@
+body{
+    
+    padding: 0;
+    overflow: auto;
+    display: block;
+    position: relative;
+    width: 413px;
+    height:350px;
+    background: url(/img/bg.png);
+    zoom: normal;
+}
+.Video_mail {
+    position: fixed;
+    float: left;
+    bottom: 3px;
+    width: 100%;
+    font-weight: 800;
+    font-size: 11px;
+    text-decoration: none;
+    color: #757575;
+    display: block;
+    z-index: 9999999999;
+}
+
+#my_setup_iframe {
+    height: 350px;
+    width: 425px;
+    top: 0px;
+    left: 0px;
+    position: absolute !important;
+    overflow: hidden !important;
+    margin: 0 0 0 0;
+    background: none;
+    border: none;
+    display: block;
+    z-index: 999999999999999999999999;
+    zoom: normal;
+}
+#time{
+    display:none;
+}

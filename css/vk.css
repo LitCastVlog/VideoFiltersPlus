@@ -1,0 +1,36 @@
+#video_yt .setup, .left_anchor{
+	position:absolute !important;
+	top:0 !important;
+	left:0 !important
+}
+
+#video_yt .setup_options {
+	left: 23px;
+	top: 0;
+	margin: 4px 15px 45px 35px;
+}
+
+.setup  {
+    top: 4px;
+    right: 5px;
+    float: right;
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+#left_anchor .setup_options {
+	left: 23px;
+	top: 0;
+	margin: 4px 15px 45px 35px;
+}
+
+.setup_options {
+	right: 0px;
+	bottom: 0;
+	margin: 5px 15px 45px 35px;
+}
+.videoplayer_share_actions {
+	z-index:2 !important;
+}

@@ -1,0 +1,20 @@
+.ytp-button.setup  {
+    top: -2px;
+    left: 0;
+    float: right;
+    display: block !important;
+    position: relative;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.js-player button.ytp-button.setup {
+    left: -10px !important;
+}
+
+.setup_options {
+	right: 0px;
+	bottom: 16px;
+	margin: 4px 10px 30px 35px !important;
+}

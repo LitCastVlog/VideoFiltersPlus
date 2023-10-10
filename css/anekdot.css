@@ -1,0 +1,101 @@
+#anekdot_wraper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 999999999999999999999999999999999;
+    overflow: auto;
+}
+
+#anekdot {
+    margin: auto;
+    height: initial;
+    width: 600px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 15px 13px -10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    /* text-align: center; */
+    font-size: 15px;
+    font-weight: 900;
+    font-family: cursive;
+    border-radius: 0px;
+    cursor: pointer;
+    line-height: initial;
+    background: url(chrome-extension://__MSG_@@extension_id__/img/anekdot_bg.png);
+    background-size: 25%;
+    /* filter: brightness(115%); */
+}
+
+#anekdot
+{
+  position: relative;
+}
+
+#anekdot:before, #anekdot:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.51);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#anekdot:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.page_post_sized_thumbs {
+    display: flex;
+}
+
+#anekdot img {
+    width: 100%;
+    box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.63);
+    margin-bottom: 10px;
+    z-index: 9999999;
+    /* position: relative; */
+}
+#line {
+    border-bottom: double  5px;
+    margin: 7px 0;
+    text-align: center;
+}
+
+#My_text {
+    font-size: 17px;
+}
+#My_copy {
+    width: 100%;
+    margin-top: 12px;
+}
+
+#My_copyright {
+    width: 100%;
+    text-align: center;
+}
+
+a#My_ad {
+    position: absolute;
+    margin-top: 50px;
+    width: 600px;
+}

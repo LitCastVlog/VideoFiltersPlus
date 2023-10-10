@@ -1,0 +1,141 @@
+#donate {  
+      margin: 23px 0px 0px 0px;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+input {    outline: none; }
+
+
+
+element.style {
+}
+p.zagolovok {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding: 1% 0 1% 0;
+    margin: 0;
+}
+.message_text {
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    top: -22px;
+    width: 67%;
+    padding: 1%;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+}
+.qqq {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+
+a.donate_text {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    top: 20px;
+    width: 523px;
+    float: left;
+    padding: 10px;
+}
+body{margin:0}
+
+#ru:hover, #en:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+#ru {
+    width: 35px;
+    height: 35px;
+    background: url(/img/ru.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+    transition: 0.3s;
+    z-index: 9999;
+    left: 5px;
+    top: 5px;
+}
+#en {
+    width: 35px;
+    height: 35px;
+    background: url(/img/en.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+    transition: 0.3s;
+    z-index: 9999;
+    top: 5px;
+    left: 5px;
+}
+#en:hover, #ru:hover {cursor: pointer;}
+
+
+.social_block {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+}
+.social {display: inline-block;}
+
+.social a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0 10px 0px 0;
+    text-align: center;
+    color: #fff;
+    border: 4px solid rgb(255 255 255 / 37%);
+    border-radius: 50%;
+    box-shadow: 0px 8px 17px 0px rgb(0 0 0 / 19%);
+    background: #00acee;
+    transition: .3s;
+}
+.social a:hover {
+	border-color: rgb(255, 255, 255);
+	
+}
+.social svg {
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+}
+.facebook a:hover {
+    background: #3b5998;
+    transition: .3s;
+    transform: scale(1.2);
+}
+.telegram a:hover {
+    background: #249bd7;
+    transition: .3s;
+    transform: scale(1.2);
+}
+.twitter a:hover {
+    background: #00acee;
+    transition: .3s;
+    transform: scale(1.2);
+}
+.vk a:hover {
+    background: #4a76a8;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+

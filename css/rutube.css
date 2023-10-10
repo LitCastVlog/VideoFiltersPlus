@@ -1,0 +1,16 @@
+.ytp-button.setup  {
+    top: 0;
+    left: 0px;
+    float: left;
+    display: block;
+    position: relative;
+    padding: 0;
+    min-width: 36px;
+    min-height: 36px;
+}
+
+.setup_options {
+	right: 0px;
+	bottom: 0px;
+	margin: 5px 20px 45px 31px;
+}
