@@ -1,5 +1,5 @@
-# VideoFiltersGrain
-VideoFilters+Grain (Chrome extension, unpacked)
+# VideoFilters+
+VideoFilters+ (Chrome extension, unpacked)
 
 ## [download code as zip](https://github.com/LitCastVlog/VideoFiltersPlus/archive/refs/heads/main.zip), extract anwyhere and "Load Unpacked Extension" in chrome
 
